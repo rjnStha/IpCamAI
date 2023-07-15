@@ -1,0 +1,44 @@
+/*/ Problem \*\
+
+Cannot access the ip camera via NVR 
+
+
+/*/	Blueprint Objective	\*\
+
+1. Access Ip cameras from laptop
+
+    Anaconda => OpenCV
+        - conda(Python agnostic) vs pip(Python packages only)
+
+    NVR
+        - Network Video Recorder
+        - specialized computer that records security video surveillance footage in digital format to a 
+            hard drive.
+
+    RTSP
+        - Real Time Streaming Protocol
+    	- Play audio and video straight from the internet, rather than having to download media files 
+        	to their devices.
+    	- RTSP port (usually 554)
+        - Url => rtsp://admin:12345@192.168.1.210:554/Streaming/Channels/101
+
+    Port Forwarding
+        - Router has 2 IP address: LAN and WAN
+        - Network Address Translation (NAT) 
+    
+    Static IP vs Dynamic DNS vs DHCP (Dynamic Host Configuration Protocol).
+
+        
+    https://circuitdigest.com/microcontroller-projects/stream-cctv-video-from-dvr-to-raspberry-pi-using-python-and-opencv         
+        
+
+2. Face Recognition
+
+    Haar Cascades Face Detection -> Cascading Windows
+    https://medium.com/analytics-vidhya/haar-cascades-explained-38210e57970d
+    https://www.youtube.com/watch?v=tl2eEBFEHqM&ab_channel=Indently 
+
+
+3. Object Detection
+    https://www.analyticsvidhya.com/blog/2022/04/object-detection-using-haar-cascade-opencv/   
+

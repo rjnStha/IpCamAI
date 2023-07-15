@@ -1,0 +1,33 @@
+#Pacakages
+Anaconda
+Pip
+cmake
+dlib
+
+$conda config --append channels conda-forge
+    command adds the specified channel(conda-forge) to the bottom of the channel list and 
+    makes it the lowest priority.
+    
+$conda install grep
+    
+   
+1. Install dlib library
+    https://www.geeksforgeeks.org/how-to-install-dlib-library-for-python-in-windows-10/ 
+    
+    Dlib
+        - general purpose cross-platform software library written in C++
+        - toolkit containing machine learning algorithms
+    
+    1.1 Install Cmake (required since dlib was developed in C based prog. language)
+        
+        Cmake
+            - cross-platform software for build automation, testing, packaging and 
+                installation of software by using a compiler-independent method       
+
+    1.2 Install the c++ compiler of the visual studio code community version
+    
+    1.3 Install Cmake module , dlib lib and Face Recognition package
+        
+        $pip install cmake
+        $pip install dlib
+        $pip install face_recognition 
